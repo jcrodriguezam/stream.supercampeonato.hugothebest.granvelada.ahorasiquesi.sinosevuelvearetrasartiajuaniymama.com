@@ -318,11 +318,11 @@
             target.setHours(20, 0, 0, 0);
             
             // Si ya pasaron las 20:00 hoy, mostrar el video
-            if (now >= target) {
+            //if (now >= target) {
                 document.getElementById('countdown').style.display = 'none';
                 document.getElementById('videoPlaceholder').style.display = 'block';
                 return;
-            }
+            //}
             
             const diff = target - now;
             
